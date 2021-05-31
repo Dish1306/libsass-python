@@ -35,7 +35,7 @@ jobs:
     toxenvs: [py36]
     os: windows
     architectures: [x64, x86]
-    wheel_tags: true
+    wheel_tags: false
 - template: job--python-tox.yml@asottile
   parameters:
     toxenvs: [pypy, pypy3, py27, py36, py37, py38, py39]
