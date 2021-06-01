@@ -40,3 +40,4 @@ jobs:
   parameters:
     toxenvs: [pypy, pypy3, py27, py36, py37, py38, py39]
     os: linux
+    wheel_tags: true
